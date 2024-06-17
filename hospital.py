@@ -25,7 +25,7 @@ class Appointment:
         self.reason = reason
 
     def get_details(self):
-        return f"Appointment ID: {self.appointment_id}, Date: {self.date}, Time: {self.time}, Doctor: {self.doctor_name}, Reason: {self.reason}"
+        return f"Appointment ID Of the Patient: {self.appointment_id}, Date: {self.date}, Time: {self.time}, Doctor: {self.doctor_name}, Reason: {self.reason}"
 
 
 class HospitalManagementSystem:
